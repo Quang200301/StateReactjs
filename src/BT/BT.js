@@ -34,7 +34,7 @@ class BT extends Component {
                 <div>
                 {this.state.products.map((item) => ( 
                     <div>
-                        <img src={item.image}></img>
+                        <img src={this.props.image}></img>
                         <h1>{item.name}</h1>
                         <p>{item.gia}</p>
                     </div>
